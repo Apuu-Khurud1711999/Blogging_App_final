@@ -1,0 +1,14 @@
+  button {
+    transition-duration: 0.4s;
+  }
+  
+  button:hover {
+    background-color: #008CBA; /* Green */
+    color: white;
+  }
+  button {border-radius: 12px;}
+
+  img {
+    border-radius: 10px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+  } 

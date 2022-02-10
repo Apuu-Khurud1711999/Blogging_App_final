@@ -1,0 +1,139 @@
+.color{
+  color: red;
+}
+
+
+.login{
+    margin-top: 150px;     
+}
+.loginform{
+    margin-top: 0px;
+    height: 570px;
+    background: transparent;
+}
+.formlogin{
+    width: 400px;
+    margin:auto
+}
+
+.register{
+    width : 625px;
+    height : 128px;
+    margin-top: 25px;
+    margin:auto
+}
+
+.form{
+    width: 600px;
+    margin: auto;
+}
+.formdata{
+    margin: auto;
+    width: auto;
+    background: transparent;
+}
+
+.img1 {
+    height: calc(150vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmxvZyUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80");
+    background-size: cover;
+  }
+
+  .img2 {
+    height: calc(150vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("https://media.istockphoto.com/photos/top-view-of-modern-office-workspace-picture-id1205613046?b=1&k=20&m=1205613046&s=170667a&w=0&h=gijbHEL3cHTaD6YtfO_pCFLOuBX-2lshhWP4fz4mUck=");
+    background-size: cover;
+  }
+
+  @media screen and (max-width:1020px)
+{
+    .header{
+      height:auto;
+      padding-bottom: 15px;
+    }
+   .wrapper{
+      width:1000px;
+    }
+   .main{
+      width:100%;
+    } 
+   .contents{
+      width:100%;
+    }
+   .content2{
+      width:100%;
+    }
+   .footer{
+        width:100%;
+      }
+  
+}
+
+@media screen and (max-width:810px)
+{
+    .header{       
+       height: auto;
+    }
+    .wrapper{
+      width: 100%;
+     
+    }
+    .main{
+      width:100%;
+      height: auto;
+    }
+    .contents{
+        width:100%;
+    }
+    .contents2{
+        width:100%;
+    }
+    .footer{
+        width:100%;
+    }
+ 
+  }
+
+
+@media screen and (max-width:510px)
+{
+    .header{
+    
+        text-align: center;
+    }
+    .wrapper{
+      width:100%;
+    }
+    .main{
+      width:100%;
+      float:none
+    }
+    .contents{
+        width:100%;
+        float:none
+      }
+    .contents2{
+        width:100%;
+        float:none
+      }
+    .footer{
+        width:100%;
+        float:none
+      }
+}
